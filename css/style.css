@@ -517,10 +517,10 @@ header {
   }
 
   /*SOBRE*/
-  .sobre h2 {
+  .sobre .centro h2 {
     width: 100%;
   }
-
+  
   .sobre .centro div p {
     width: 260px; /*padding de 20px + border de 5px*/
   }
@@ -528,6 +528,120 @@ header {
   .sobre .centro div img {
     width: 300px; /*border de 5 px*/
   }
+
+  /*EQUIPE*/
+  .equipe .centro .conteudoEquipe {
+    justify-content: center;
+  }
+
+  .equipe .centro .conteudoEquipe .profissional { 
+    width: 90%;
+  }
+
+  .equipe .centro .conteudoEquipe .profissional img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .equipe .centro .conteudoEquipe .profissional div {
+    margin: auto 20px;
+  }  
+
+  .equipe .centro .conteudoEquipe .profissional div h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .equipe .centro .conteudoEquipe .profissional div h4 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  /*DESTAQUE*/
+  .destaque .centro {
+    height: 200px;
+  }
+
+  .destaque .centro img { 
+    width: 50px;
+    height: 50px;
+  }
+
+  .destaque .centro img:hover { 
+    width: 70px;
+    height: 70px;
+  }
+
+  /*INFO*/
+  .info .centro .info1, 
+  .info .centro .info2, 
+  .info .centro .info3 {
+    width: 90%;
+    height: 250px;
+  }
+
+  .info .centro .info1 img {
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+  }
+
+  .info .centro .info1 p {
+    line-height: 40px;
+    font-size: 20px;
+  }
+
+  .info .centro .info2 img {
+    width: 200px;
+    height: 60px;
+    margin: 10px 0 0 0;
+  }
+
+  .info .centro .info2 div {
+    margin: 10px 45px;
+  }
+
+  .info .centro .info2 div img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .info .centro .info2 p {
+    line-height: 40px;
+    font-size: 20px;
+  }
+
+  .info .centro .info3 img{
+    display: none;
+  }
+
+  .info .centro .info3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info .centro .info3 iframe {
+    width: 100%;
+    height: 100%;
+  }
+
+  /*DIREITOS*/
+    .direitos {
+      font-size: 10px;
+    }
+
+    .direitos p {
+      margin: auto 20px
+    }
+  /*DESENVOLVEDOR*/
+  .desenvolvedor {
+    font-size: 10px;
+  }
+
+  .desenvolvedor p {
+    margin: auto 20px
+  }
+
 }
 
 /*AULA 19/11/2022*/
